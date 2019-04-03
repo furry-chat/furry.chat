@@ -1,0 +1,21 @@
+#section-main {
+	.media + .media {
+		border-top: none;
+	}
+}
+
+.media {
+	.media-left {
+		i {
+			$size: 2rem;
+			text-align: center;
+			font-size: $size;
+			color: #fff;
+			width: ($size * 2);
+			height: ($size * 2);
+			border-radius: 50%;
+			line-height: ($size * 2);
+			background-color: hsl(217, 71%, 53%);
+		}
+	}
+}

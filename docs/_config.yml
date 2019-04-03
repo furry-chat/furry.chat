@@ -1,0 +1,29 @@
+title: "Чат FURRY / ФУРРИ"
+description: "Современный чат для FURRY / ФУРРИ. Интересные обсуждения, ролевые игры, ивенты, стримы, библиотека, архив изображений, добрая администрация!"
+lang: "ru_RU"
+logo: "https://cdn-storage.github.io/images/logos/furry.01.001.512.svg.bg.png"
+image: "https://cdn-storage.github.io/images/logos/furry.01.001.512.svg.bg.png"
+
+sass:
+  style: compressed
+  sass_dir: assets/css/
+
+twitter:
+  username: "furryfdn"
+  card: "summary"
+
+social:
+  name: "Чат FURRY / ФУРРИ"
+  links:
+  - https://twitter.com/furryfdn
+  - https://vk.com/furryfdn
+
+author:
+  name: "FURRY Foundation"
+  email: "kitsune.solar@gmail.com"
+  github: "KitsuneSolar"
+  twitter: "KitsuneSolar"
+
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap

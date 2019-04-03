@@ -1,0 +1,239 @@
+---
+layout: home
+permalink: /
+---
+
+<main id="page-wrapper">
+	<!-- section-main -->
+	<section id="section-main" class="section">
+		<div class="container">
+			<div class="box">
+				<div class="columns">
+					<div class="column">
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<i class="fas fa-glass-cheers"></i>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Интересные обсуждения
+									</h4>
+									<p>
+										Сервер <strong>{{ site.title }}</strong> живёт бурной жизнью.
+										У нас можно обсудить новости из мира науки, ИТ, индустрии игр, фильмов, книг и многое другое...
+									</p>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<i class="fas fa-user-secret"></i>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Ролевые игры
+									</h4>
+									<p>
+										<strong>Ролевые игры</strong> - неотъемлемая часть любого сервера.
+										Только у нас имеется ролевая игра под названием <strong>Serenity</strong>,
+										которая позволяет полностью погрузиться в мир космических путешествий.
+									</p>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<i class="fas fa-calendar"></i>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Ивенты
+									</h4>
+									<p>
+										На нашем сервере постоянно проводятся различные мероприятия:
+										<a href="https://furry.radio.wtf/"><strong>радио-эфиры</strong></a>, интересные передачи, совместные просмотры мультфильмов и фильмов.
+									</p>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<i class="fas fa-images"></i>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Архив изображений
+									</h4>
+									<p>
+										На нашем сервере имеется большая <a href="https://art.furry.chat/"><strong>галерея изображений</strong></a>, которая постоянно пополняется новыми элементами.
+										Присутствуют закрытые специализированные каналы с NU- и YIFF-содержанием, и отдельная <a href="https://porn.furry.chat/"><strong>галерея</strong></a> для них.
+									</p>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<i class="fas fa-cogs"></i>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Новые технологии и возможности
+									</h4>
+									<p>
+										Сервер <strong>{{ site.title }}</strong> постоянно обновляется и внедряет новые возможности.
+										Мы первыми реализовали категории для каналов и первыми интегрировали потоки радио-вещания с серверов Discord на внешние источники.
+									</p>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<i class="fas fa-heart"></i>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Адекватная администрация
+									</h4>
+									<p>
+										<a href="https://metainfo.github.io/team/"><strong>Администрация</strong></a> сервера <strong>{{ site.title }}</strong> всегда готова выслушать Вас и открыта для принятия новых идей и пожеланий.
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="column">
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<i class="fas fa-plug"></i>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Подключение
+									</h4>
+									<p>
+										Для присоединения к чату необходимо:
+									</p>
+									<ol>
+										<li>
+											Нажать кнопку <code>Присоединиться</code>.
+										</li>
+										<li>
+											Выбрать себе имя.
+										</li>
+										<li>
+											Получать удовольствие от общения.
+										</li>
+									</ol>
+									<p>
+										<a class="button is-success" href="{{ site.data.config.discord.url }}" target="_blank">Присоединиться</a>
+									</p>
+									<div class="field">
+										<div class="field has-addons">
+											<div class="control is-expanded">
+												<input id="chatUrl" class="input" type="text" value="{{ site.data.config.discord.url }}" readonly="readonly" />
+											</div>
+											<div class="control">
+												<a class="button is-info ext-clipboard" data-clipboard-target="#chatUrl" title="Скопировать в буфер обмена">
+													<span class="icon"><i class="fas fa-copy"></i></span>
+												</a>
+											</div>
+										</div>
+										<p class="help">
+											Отправьте ссылку друзьям и знакомым, чтобы они тоже участвовали в дискуссии!
+										</p>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<i class="fas fa-chart-line"></i>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Рейтинг
+									</h4>
+									<p>
+										В нашем чате действует <a href="https://juniperbot.ru/ranking/{{ site.data.config.discord.id }}" target="_blank"><strong>рейтинговая система</strong></a> участников.
+										Чем больше участник чата пишет сообщений, тем больше у него рейтинг.
+									</p>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<i class="fas fa-comments"></i>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Каналы
+									</h4>
+									<p>
+										Сервер <strong>{{ site.title }}</strong> отличается от других серверов продуманной системой каналов для общения.
+									</p>
+									<ul>
+										<li>
+											Более <span class="tag is-link">{{ site.data.stats.channels.thematic }}</span> тематических каналов для общения.
+										</li>
+										<li>
+											Более <span class="tag is-link">{{ site.data.stats.channels.rp }}</span> каналов для RP-тематики.
+										</li>
+										<li>
+											Более <span class="tag is-link">{{ site.data.stats.channels.voice }}</span> каналов для общения при помощи голосовой связи.
+										</li>
+									</ul>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<i class="fas fa-paw"></i>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Команда
+									</h4>
+									<p>
+										<a href="https://metainfo.github.io/team/"><strong>Администраторам</strong></a> удаётся поддерживать дружную "ламповую" атмосферу для общения.
+										Наш сервер быстро развивается и всегда рад новым участникам!
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- / section-main -->
+</main>

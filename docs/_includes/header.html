@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html class="has-background-light has-navbar-fixed-top" dir="ltr" lang="ru">
+<head prefix="og: http://ogp.me/ns#">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	{% seo %}
+
+	<!-- custom: seo -->
+	<meta name="keywords" content="{{ site.data.config.meta.keywords }}" />
+	<meta name="copyright" content="{{ site.data.config.meta.copyright }}" />
+	<meta name="theme-color" content="{{ site.data.config.meta.theme-color }}" />
+	<meta property="og:image" content="{{ site.image }}" />
+	<meta name="twitter:image" content="{{ site.image }}" />
+	<!-- / custom: seo -->
+
+	<!-- styles -->
+	{% for font in site.data.config.fonts %}
+		<link rel="stylesheet" href="{{ font }}" />
+	{% endfor %}
+
+	{% for style in site.data.config.styles %}
+		<link rel="stylesheet" href="{{ style }}" />
+	{% endfor %}
+
+	<link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}" />
+	<!-- / styles -->
+
+	<!-- favicon -->
+	<link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}" />
+	<!-- / favicon -->
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+<header>
+	<nav class="navbar has-shadow is-fixed-top is-transparent" role="navigation" aria-label="main navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+		<div class="navbar-brand">
+			<a class="navbar-burger burger" role="button" data-target="navMenu" aria-label="menu" aria-expanded="false">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+		<div id="navMenu" class="navbar-menu">
+			<div class="navbar-start">
+				<div class="navbar-item">
+					<a title="Галерея" class="button is-light" href="https://art.furry.chat/" itemprop="url">
+						<span class="icon"><i class="fas fa-images fa-lg"></i></span>
+					</a>
+				</div>
+				<div class="navbar-item">
+					<a title="Мастерская" class="button is-light" href="https://workshop.furry.chat/" itemprop="url">
+						<span class="icon"><i class="fas fa-tools fa-lg"></i></span>
+					</a>
+				</div>
+				<div class="navbar-item">
+					<a title="Радио" class="button is-light" href="https://furry.radio.wtf/" itemprop="url">
+						<span class="icon"><i class="fas fa-broadcast-tower fa-lg"></i></span>
+					</a>
+				</div>
+				<div class="navbar-item">
+					<a title="Объявления" class="button is-light" href="https://ad.furry.chat/" itemprop="url">
+						<span class="icon"><i class="fas fa-bullhorn fa-lg"></i></span>
+					</a>
+				</div>
+				<div class="navbar-item">
+					<a title="Правила" class="button is-warning" href="https://metainfo.github.io/rules/" itemprop="url">
+						<span class="icon"><i class="fas fa-exclamation-triangle fa-lg"></i></span>
+					</a>
+				</div>
+			</div>
+			<div class="navbar-end">
+				<div class="navbar-item">
+					<a title="Войти" class="button is-info" href="https://login.furry.chat/" target="_blank" itemprop="url">
+						<span class="icon"><i class="fas fa-sign-in-alt"></i></span>
+						<span itemprop="name">Войти</span>
+					</a>
+				</div>
+				<div class="navbar-item">
+					<a title="Регистрация" class="button is-success" href="https://register.furry.chat/" target="_blank" itemprop="url">
+						<span class="icon"><i class="fas fa-user-plus"></i></span>
+						<span itemprop="name">Регистрация</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+</header>

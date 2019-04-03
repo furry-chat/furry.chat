@@ -1,0 +1,33 @@
+<!-- footer -->
+<footer class="footer has-background-light">
+	<div class="container">
+		<div class="columns">
+			<div class="column">
+				<div class="content has-text-left">
+					<p>
+						<em>Фонд <a href="{{ site.data.config.info.url }}/furry/"><strong>FURRY</strong></a> существует при поддержке сообщества <strong>FURRY / ФУРРИ</strong></em>
+					</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="content has-text-right">
+					<p>
+						{{ site.data.config.html.copyright }}
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- / footer -->
+
+<!-- scripts -->
+{% for script in site.data.config.scripts %}
+	<script src="{{ script }}"></script>
+{% endfor %}
+
+<script src="{{ "/assets/js/theme.min.js" | relative_url }}"></script>
+<!-- / scripts -->
+
+</body>
+</html>
