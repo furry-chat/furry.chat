@@ -6,7 +6,7 @@ fonts:
 
 styles:
   - https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css
-  - https://cdn-storage.github.io/styles/bulma/theme.css
+  - https://cdn-storage.github.io/styles/bulma/theme.min.css
 
 scripts:
   - https://cdn.jsdelivr.net/npm/jquery
