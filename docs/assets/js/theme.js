@@ -6,5 +6,5 @@
  */
 
 $(function () {
-	extJS_clipBoard('#chatUrl');
+	clipBoard('#chatUrl');
 });
