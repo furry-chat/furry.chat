@@ -1,6 +1,6 @@
 'use strict';
 
-function clipBoard2(element = '.ext-clipboard') {
+function clipBoard2(element = '.ext-clipboard2') {
   let clipboard = new ClipboardJS(element);
 
   clipboard.on('success', function (e) {
