@@ -223,3 +223,11 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Jekyll
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Claude Code
+.claude/

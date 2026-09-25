@@ -1,5 +1,5 @@
-channels:
-  thematic: "10"
-  rp: "3"
-  voice: "6"
-users: "1300"
+# Запасные значения — показываются, пока не загрузились живые данные из Discord
+# (или если Discord недоступен). Живые цифры подставляет assets/js/theme.js.
+founded: "2017"
+members: "4 900"
+online: "1 000"
