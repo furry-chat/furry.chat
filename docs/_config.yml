@@ -4,7 +4,6 @@ description: "Discord-сервер русскоязычного фурри-со�
 lang: "ru_RU"
 url: "https://furry.chat"
 logo: "/assets/img/logo.png"
-image: "/assets/img/logo.png"
 
 author:
   name: "FURRY Foundation"
@@ -14,6 +13,8 @@ defaults:
       path: ""
     values:
       layout: "default"
+      # Превью ссылки в соцсетях и мессенджерах (jekyll-seo-tag берёт картинку со страницы).
+      image: "/assets/img/logo.png"
 
 plugins:
   - jekyll-seo-tag
